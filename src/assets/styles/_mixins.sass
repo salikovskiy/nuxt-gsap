@@ -1,0 +1,24 @@
+// Small devices
+@mixin small
+    @media (min-width: $screen-sm-min)
+        @content
+
+// Medium devices
+@mixin medium
+    @media (min-width: $screen-md-min)
+        @content
+
+// Large devices
+@mixin large
+    @media (min-width: $screen-lg-min)
+        @content
+
+// Extra large devices
+@mixin x-large
+    @media (min-width: $screen-xl-min)
+        @content
+
+// Custom devices
+@mixin rwd($screen)
+    @media (min-width: $screen+'px')
+        @content

@@ -1,17 +1,28 @@
 {
-  "name": "ann-portfolio",
-  "private": true,
-  "version": "0.0.0",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
-  "dependencies": {
-    "vue": "^3.2.25"
-  },
-  "devDependencies": {
-    "@vitejs/plugin-vue": "^2.3.3",
-    "vite": "^2.9.9"
-  }
+    "name": "a",
+    "private": true,
+    "version": "0.0.0",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview"
+    },
+    "dependencies": {
+        "@studio-freight/lenis": "^0.1.9",
+        "gsap": "^3.10.4",
+        "mitt": "^3.0.0",
+        "vue": "^3.2.25",
+        "vue-router": "^4.0.16"
+    },
+    "devDependencies": {
+        "@vitejs/plugin-vue": "^2.3.3",
+        "eslint": "^8.17.0",
+        "eslint-config-prettier": "^8.5.0",
+        "eslint-plugin-vue": "^9.1.1",
+        "prettier": "^2.7.0",
+        "pug": "^3.0.2",
+        "sass": "^1.52.3",
+        "vite": "^2.9.9",
+        "vite-svg-loader": "^3.3.0"
+    }
 }
